@@ -1,0 +1,9 @@
+[submodule "marp-server"]
+	path = marp-server
+	url = https://github.com/thequantumquirk/marp-server
+[submodule "marp-shot-frontend"]
+	path = marp-shot-frontend
+	url = git@github.com:thequantumquirk/marp-shot-frontend.git
+[submodule "marp-shot-llm"]
+	path = marp-shot-llm
+	url = git@github.com:thequantumquirk/marp-shot-llm.git
