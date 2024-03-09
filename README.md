@@ -29,6 +29,45 @@ your message with dynamic presentations that leave a lasting impression.
 6. Product Gen: Utilize our AI-powered product generation tool to effortlessly create detailed product reviews and descriptions. Streamline your content creation process and captivate your audience with compelling product narratives.
 
 ## Demo
+**Landing Page**:
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/44743770-8475-4c3e-833b-fb717ec11a21)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/87ed0b88-3501-4e61-975b-c9540c373c73)
+
+**AI Auto Blog**:
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/c38a110d-afb3-4dd6-85f8-9b9e5056c006)
+
+**Truth Tracker**:
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/ee15b2e8-d039-4408-8452-28ff74d50696)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/e879d8ec-82a5-498f-8b55-9247436944f3)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/382c8710-6c59-4caa-a51b-227238c4e06b)
+
+**Present Prefect**:
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/080c9906-004a-448c-a7d0-4a5f23fcb965)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/1514083c-0751-4f6a-9a91-c618f0e0f5f5)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/262fd59a-4c87-4598-99e3-b1ae882239f1)
+Demo Presentation
+
+**Util Gen**:
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/360a28b4-e420-4b88-af0a-ce731b998752)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/06e0143b-9626-4113-bac7-9d37c26034fc)
+
+**AI Genie**:
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/be1c2760-47e8-437d-8a04-b6288b38d2bf)
+
+**Product Gen**:
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/6023c0bf-c69b-4544-aa38-4bf8ee545373)
+
+![image](https://github.com/thequantumquirk/marp-shot/assets/67329471/fdebaa38-69cd-453a-9c49-13a9ac226b3e)
 
 ## What's under the hood?
 
@@ -107,5 +146,27 @@ llm_on_ray-serve --config_file interference.yaml
 
 ### Benchmarks with LLM on Ray
 
+There are two benchmarks:
+
+1. Performance Benchmarks
+2. Ease of Use Benchmarks
+
+#### Performance 
+
+![bar-graph](https://github.com/thequantumquirk/marp-shot/assets/67329471/790f60b2-96dd-4126-b1f3-5c3b71bfe963)
+
+The Interference for same model and same hardware has brought in more than 5x improvements compared to using other approaches.
+
+#### Ease of Use
+
+![bar-graph(1)](https://github.com/thequantumquirk/marp-shot/assets/67329471/017c01a5-fac8-4e55-bc0b-aa0055a9e810)
+
+The amount of time spent exploring, learning and debugging while finetuning and interference has drastically reduced upto 8x.
+
+### Conclusion
+
+LLM-on-Ray is a revolutionary solution that simplifies the process of building, customizing, and deploying Large Language Models (LLMs). Leveraging the power of Ray for distributed computing, LLM-on-Ray ensures efficient scaling of AI workloads with robust fault tolerance and cluster resource management. This project is designed to operate seamlessly across various hardware setups, including Intel CPU, Intel GPU, and Intel Gaudi2, incorporating industry and Intel optimizations such as vLLM, llama.cpp, Intel Extension for PyTorch/Deepspeed, BigDL-LLM, RecDP-LLM, and NeuralChat. With LLM-on-Ray, users can easily pretrain models, fine-tune existing ones, and deploy production-ready LLM endpoint services, making complex AI tasks manageable and scalable.
+
 ## Road Map
 
+![MarpShot](https://github.com/thequantumquirk/marp-shot/assets/67329471/74d24443-c872-4530-adf9-cf4d10163907)
